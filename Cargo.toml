@@ -1,7 +1,7 @@
 [package]
 description = "Simple BIP-39 mnemonic validator: language detection, word count and checksum. No seed derivation."
 readme = "README.md"
-license = "MIT OR Apache-2.0"
+license = "MIT"
 keywords = ["bip39", "mnemonic", "wallet", "crypto", "checksum"]
 categories = ["cryptography::cryptocurrencies", "parsing"]
 documentation = "https://docs.rs/bip39-check"
