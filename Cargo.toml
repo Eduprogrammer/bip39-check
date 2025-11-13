@@ -5,7 +5,8 @@ license = "MIT"
 keywords = ["bip39", "mnemonic", "wallet", "crypto", "checksum"]
 categories = ["cryptography::cryptocurrencies", "parsing"]
 documentation = "https://docs.rs/bip39-check"
-# repository = "https://github.com/Eduprogrammer/bip39-check"  # (adicione quando subir pro GitHub)
+repository = "https://github.com/Eduprogrammer/bip39-check"  
+homepage = "https://github.com/Eduprogrammer/bip39-check"
 name = "bip39-check"
 version = "0.1.0"
 edition = "2024"
@@ -22,6 +23,13 @@ include = [
 [dependencies]
 bip39 = { version = "2.2.0", default-features = false, features = ["std", "spanish", "french", "italian", "portuguese", "japanese", "korean", "chinese-simplified", "chinese-traditional", "czech"] }
 unicode-normalization = "0.1.25"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[package.metadata.docs.rs]
+all-features = true
+no-default-features = false
 
 
 
