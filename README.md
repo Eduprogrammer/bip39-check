@@ -1,5 +1,10 @@
 bip39-check
 
+[![Crates.io](https://img.shields.io/crates/v/bip39-check.svg)](https://crates.io/crates/bip39-check)
+[![Docs.rs](https://docs.rs/bip39-check/badge.svg)](https://docs.rs/bip39-check)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+
 EN · PT below
 
 Simple BIP-39 mnemonic validator: language detection, word count & checksum.
