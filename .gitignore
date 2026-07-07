@@ -1,1 +1,9 @@
-/target
+# Rust
+/target/
+**/*.rs.bk
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
